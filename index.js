@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-const _PORT_ = process.env._PORT_ || 8877;
+const _PORT_ = process.env.PORT || 8877;
 
 const fakeApi = {
     "planos": [{
