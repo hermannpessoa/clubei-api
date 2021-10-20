@@ -116,6 +116,8 @@ const fakeApi = {
     ]
 }
 
+app.use(allowCrossDomain)
+
 app.get('/', (req, res) => {
     res.json(fakeApi)
 })
